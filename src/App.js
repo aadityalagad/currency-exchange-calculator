@@ -1,11 +1,12 @@
 import "./App.css";
-import Input from "./Input";
+import Calculator from "./Calculator";
 
 function App() {
     return (
         <div className="app">
-            <h1>Currency Exchange Calculator</h1>
-            <Input />
+            <h1 className="app-heading">Currency Exchange Calculator</h1>
+			<h2 className="app-description">Convert x value in the provided currency to btc</h2>
+            <Calculator />
         </div>
     );
 }
