@@ -67,7 +67,7 @@ const Input = () => {
                 onChange={(e) => {
                     setValue(e.target.value);
                 }}
-                type="text"
+                type="number"
                 placeholder="Enter amount"
             />
             <Output value={result} />
