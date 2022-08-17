@@ -4,7 +4,8 @@ const Input = (props) => {
     return (
         <div className="input">
             <label className="input-label">Amount in {props.currency}: </label>
-            <input className="input-input"
+            <input
+                className="input-input"
                 value={props.value}
                 onChange={(e) => {
                     props.setValueHandler(e.target.value);
@@ -12,7 +13,8 @@ const Input = (props) => {
                 type="number"
                 placeholder="Enter amount"
             />
-            <select className="input-select"
+            <select
+                className="input-select"
                 value={props.currency}
                 onChange={(e) => props.setCurrencyHandler(e.target.value)}
             >
