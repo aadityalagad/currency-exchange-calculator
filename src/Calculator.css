@@ -7,3 +7,24 @@
 	justify-content: center;
 	border: 2px solid #ccc;
 }
+
+@media (max-width: 768px) {
+	.calculator {
+		height: 40%;
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.calculator {
+		height: 30%;
+		width: 100%;
+	}
+}
+
+@media (max-width: 320px) {
+	.calculator {
+		height: 40%;
+		width: 100%;
+	}
+}

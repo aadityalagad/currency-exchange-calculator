@@ -14,3 +14,21 @@
 	padding: 30px;
 	font-style: italic;
 }
+
+@media (max-width: 768px) {
+	.app-heading {
+		font-size: 28px;
+	}
+	.app-description {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 480px) {
+	.app-heading {
+		font-size: 24px;
+	}
+	.app-description {
+		font-size: 16px;
+	}
+}
